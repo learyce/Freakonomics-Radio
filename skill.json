@@ -1,0 +1,76 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Discover the hidden side of everything with Stephen J. Dubner, co-author of the Freakonomics books.",
+          "examplePhrases": [
+            "Alexa, open Freakonomics Radio",
+            "Alexa, start Freakonomics Radio"
+          ],
+          "keywords": [
+            "podcast",
+            "streaming",
+            "Stephen",
+            "Dubner",
+            "Freakonmics",
+            "Radio",
+            "NPR",
+            "Economics"
+          ],
+          "name": "Freakonomics Radio",
+          "description": "Discover the hidden side of everything with Stephen J. Dubner, co-author of the Freakonomics books. Each week, Freakonomics Radio tells you things you always thought you knew (but didn’t) and things you never thought you wanted to know (but do) — from the economics of sleep to how to become great at just about anything. Dubner speaks with Nobel laureates and provocateurs, intellectuals and entrepreneurs, and various other underachievers.",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dde2/f7e5e4cfab8840568083bd94f0b43245/APP_ICON?versionId=iTqH2qwerL3JciyTw2odEtVlUgRizuIw&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200402T001602Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QFCBG4ID7%2F20200402%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f706ab16baa730b0fb4e89a9843ed9aec61575a7852fcbfcc1fdd43444455f71",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/95ed/0114f73f322b4eeabd90e855ed34fecb/APP_ICON_LARGE?versionId=fwNZP2HTV8rYFYfYo.gRhWIBVjUki103&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200402T001602Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAWBV6LQ4QFCBG4ID7%2F20200402%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4f1f55c8d5b1ec9fa48d160b1359c31219490873bc6a292f7bbfa497fca57a77"
+        },
+        "en-GB": {
+          "summary": "Discover the hidden side of everything with Stephen J. Dubner, co-author of the Freakonomics books.",
+          "examplePhrases": [
+            "Alexa, open Freakonomics Radio",
+            "Alexa, start Freakonomics Radio"
+          ],
+          "keywords": [
+            "podcast",
+            "streaming",
+            "Stephen",
+            "Dubner",
+            "Freakonmics",
+            "Radio",
+            "NPR",
+            "Economics"
+          ],
+          "name": "Freakonomics Radio",
+          "description": "Discover the hidden side of everything with Stephen J. Dubner, co-author of the Freakonomics books. Each week, Freakonomics Radio tells you things you always thought you knew (but didn’t) and things you never thought you wanted to know (but do) — from the economics of sleep to how to become great at just about anything. Dubner speaks with Nobel laureates and provocateurs, intellectuals and entrepreneurs, and various other underachievers.",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dde2/f7e5e4cfab8840568083bd94f0b43245/APP_ICON?versionId=iTqH2qwerL3JciyTw2odEtVlUgRizuIw&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200402T001602Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QFCBG4ID7%2F20200402%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f706ab16baa730b0fb4e89a9843ed9aec61575a7852fcbfcc1fdd43444455f71",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/95ed/0114f73f322b4eeabd90e855ed34fecb/APP_ICON_LARGE?versionId=fwNZP2HTV8rYFYfYo.gRhWIBVjUki103&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200402T001602Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAWBV6LQ4QFCBG4ID7%2F20200402%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4f1f55c8d5b1ec9fa48d160b1359c31219490873bc6a292f7bbfa497fca57a77"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Opening the skill should play the most recently available podcast",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/py/lambda_upload",
+          "uri": "ask-freakonomics-default"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

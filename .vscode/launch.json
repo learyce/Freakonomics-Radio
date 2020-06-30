@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Launch Program",
+            // Specify path to the downloaded local adapter(for python) file
+            "program": "${workspaceRoot}/lambda/py/local_debugger.py",
+            "args": [
+                // port number on your local host where the alexa requests will be routed to
+                "--portNumber", "3001",
+                // name of your python main skill file
+                "--skillEntryFile", "./lambda/py/spreaker_parser.py",
+                // name of your lambda handler
+                "--lambdaHandler", "lambda_handler"
+            ],
+        }
+    ]
+}
